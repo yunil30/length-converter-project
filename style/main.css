@@ -1,0 +1,190 @@
+/* Main part of the web application. */
+*{
+    margin: 0% 0%;
+}
+
+body{
+    background: none;
+    background-size: none;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+main{
+    padding: 0% 0%; 
+}
+
+.wrapper{
+    background-color: #29293D;
+    border-radius: none;
+    width: 100%;
+    padding: 5% 0% 0% 0%;
+}
+
+/* Upper part of the web application. */
+.upper-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    z-index: 10;
+}
+
+.upper-div h2{
+    list-style: none;
+    color: white;
+    font-size: 30px; 
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+}
+
+.input-part{
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.number-input{
+    background-color: white;
+    border: 1px solid #29293D;
+    color: #29293D;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 3px;
+    width: 100%;
+    padding: 0.5% 4%;
+    outline: none;
+}
+
+.number-input::placeholder{
+    color: #afafafa8;
+    letter-spacing: 3px;
+}
+
+button{
+    border-radius: 5px;
+    width: 70%;
+}
+
+.convertBtn{
+    background-color: white;
+    border: 1px solid white;
+    color: #29293D;
+    font-size: 20px; 
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 0.5% 1.5%;
+    margin-left: 1%;
+    transition:  box-shadow 0.2s;
+}
+
+.convertBtn:hover{
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.800);
+}
+
+.convertBtn:active{
+    opacity: 0.8;
+}
+
+/* Lower part of the web application. */
+.lower-div{
+    background-color: #EB5E28;
+    border-radius: 25px 25px 0px 0px;
+    padding-top: 5%;
+    z-index: 100;
+}
+
+ul{
+    list-style: none;
+    color: #29293D;
+    font-size: 17px; 
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 3px;
+    height: 80.1vh;
+    padding: 0% 0%;
+}
+
+ul h2{
+    color: #FFFCF2;
+    font-size: 25px; 
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-bottom: 2%;
+}
+
+li{
+    background-color: white;
+    list-style: none;
+    color: #29293D;
+    font-size: 20px; 
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 3px;
+    height: 20px; 
+    padding: 1% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.inches-div{
+    height: 10vh;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.feet-div{
+    height: 10vh;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.decimeter-div{
+    height: 10vh;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.meter-div{
+    height: 10vh;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.hectometer-div{
+    height: 10vh;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.kilometer-div{
+    height: 10vh;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/transition.css">
+    </head>
+    <body>
+        <main>
+            <div class="wrapper" id="wrapper">
+                <div class="upper-div">
+                    <h2>Length Converter</h2>
+                    <div class="input-part">
+                        <input type="text" class="number-input" id="centimeter" placeholder="Enter number in centimeter">
+                        <button class="convertBtn" id="convertBtn">Convert</button>
+                    </div>
+                </div>
+                <div class="lower-div">
+                    <ul>
+                        <div class="inches-div">
+                            <h2>Inches:</h2><li class="inches" id="inches"></li>
+                        </div>
+                        <div class="feet-div">
+                            <h2>Feet:</h2><li class="feet" id="feet"></li>   
+                        </div>
+                        <div class="decimeter-div">
+                            <h2>Decimeter:</h2><li class="decimeter" id="decimeter"></li>
+                        </div>
+                        <div class="meter-div">
+                            <h2>Meter:</h2><li class="meter" id="meter"></li>
+                        </div>
+                        <div class="hectometer-div">
+                            <h2>Hectometer:</h2><li class="hectometer" id="hectometer"></li>
+                        </div>
+                        <div class="kilometer-div">
+                            <h2>Kilometer:</h2><li class="kilometer" id="kilometer"></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>          
+        </main>  
+        <script src="script/main.js"></script>  
+    </body>
+</html>

@@ -1,0 +1,70 @@
+@media screen and (min-width: 500px){
+    /* Main part of the web application. */
+    body{
+        background:url(../image/Length\ Converter.png);
+        background-size: contain;
+    }
+
+    main{
+        padding: 0% 0%; 
+        margin: 1% 0%;
+    }
+
+    .wrapper{
+        border-radius: 25px;
+        width: 50%;
+        padding: 2% 0% 0% 0%;
+        margin: 0% auto;
+    }
+    
+    /* Upper part of the web application. */
+    .upper-div h2{
+        margin-bottom: 1%;
+    }
+
+    .input-part{
+        width: 90%;
+        padding: 2% 2%;
+        margin-bottom: 0%;
+    }
+    
+    /* Lower part of the web application. */
+    .lower-div{
+        border-radius: 25px;
+        padding-top: 3%;
+    }
+
+    ul{
+        height: 78vh;
+    }
+    
+    ul h2{
+        font-size: 22px; 
+        margin-bottom: 1%;
+    }
+
+    .inches-div{
+        margin-bottom: 2%;
+    }
+    
+    .feet-div{
+        margin-bottom: 2%;
+    }
+    
+    .decimeter-div{
+        margin-bottom: 2%;
+    }
+    
+    .meter-div{
+        margin-bottom: 2%;
+    }
+    
+    .hectometer-div{
+        margin-bottom: 2%;
+    }
+    
+    .kilometer-div{
+        margin-bottom: 2%;
+    }
+    
+}
